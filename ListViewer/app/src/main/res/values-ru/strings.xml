@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ListViewer</string>
+    <string name="addBtn">Добавить</string>
+    <string name="enterName">Введите имя</string>
+    <string name="enterAll">Выбрать всех</string>
+    <string name="reset">Сбросить</string>
+    <string name="seeEnters">Посмотреть выбранных</string>
+    <string name="checkboxEmpty">Вы никого не выбрали!</string>
+    <string name="enterEmpty">Пожалуйста, введите имя!</string>
+    <string name="Kirill">Кирилл</string>
+    <string name="Dmitry">Дмитрий</string>
+    <string name="Danila">Данила</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/mainViewer"
+        android:layout_width="410dp"
+        android:layout_height="236dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:choiceMode="multipleChoice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/enterName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/enterName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="222dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#00897B"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingTop="6dp"
+        android:text="@string/addBtn"
+        app:layout_constraintBottom_toBottomOf="@+id/enterName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toEndOf="@+id/enterName"
+        app:layout_constraintTop_toTopOf="@+id/enterName"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/enterAll"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#55847A"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingTop="6dp"
+        android:text="@string/enterAll"
+        app:layout_constraintEnd_toEndOf="@+id/addBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/addBtn"
+        app:layout_constraintTop_toBottomOf="@+id/addBtn" />
+
+    <Button
+        android:id="@+id/seeEnters"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#55847A"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingTop="6dp"
+        android:text="@string/seeEnters"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/reset"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/reset"
+        app:layout_constraintTop_toBottomOf="@+id/reset"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#55847A"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingTop="6dp"
+        android:text="@string/reset"
+        app:layout_constraintEnd_toEndOf="@+id/enterAll"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/enterAll"
+        app:layout_constraintTop_toBottomOf="@+id/enterAll" />
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="420dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:ems="10"
+        android:fontFamily="@font/poppins_regular"
+        android:hapticFeedbackEnabled="false"
+        android:hint="@string/enterName"
+        android:inputType="textPersonName"
+        android:paddingLeft="13dp"
+        android:paddingTop="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainViewer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

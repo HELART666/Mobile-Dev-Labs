@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ListViewer</string>
+    <string name="addBtn">Add</string>
+    <string name="enterName">Enter name</string>
+    <string name="enterAll">Enter All</string>
+    <string name="reset">Reset</string>
+    <string name="seeEnters">See enters</string>
+    <string name="checkboxEmpty">You didn\'t choose anyone!</string>
+    <string name="enterEmpty">Please, enter name!</string>
+    <string name="Kirill">Kirill</string>
+    <string name="Dmitry">Dmitriy</string>
+    <string name="Danila">Danila</string>
+    <string name="author">Made by: HELART</string>
+</resources>

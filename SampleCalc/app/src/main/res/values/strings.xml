@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SampleCalc</string>
+    <string name="operand1">Операнд 1</string>
+    <string name="operand2">Операнд 2</string>
+    <string name="sumBtn">Сложить</string>
+    <string name="minBtn">Вычесть</string>
+    <string name="multBtn">Умножить</string>
+    <string name="devBtn">Разделить</string>
+    <string name="headerResult">Ваш результат:</string>
+    <string name="resultText"></string>
+    <string name="exceptionWarning">Проверьте правильность ввода!</string>
+    <string name="activityBack">Назад</string>
+</resources>

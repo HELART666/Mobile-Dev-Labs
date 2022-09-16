@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
             if(bindingClass.enterName.text.toString().isNotEmpty()){
                 list.add(bindingClass.enterName.text.toString())
             } else{
-                val toast = Toast.makeText(applicationContext, R.string.enterEmpty, duration)
+                val toast = Toast.makeText(applicationContext, getString(R.string.enterEmpty), duration)
                 toast.show()
             }
             adapter.notifyDataSetChanged();
@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
                 val toast = Toast.makeText(applicationContext, resToast, duration)
                 toast.show()
             } else{
-                val toast = Toast.makeText(applicationContext, R.string.checkboxEmpty, duration)
+                val toast = Toast.makeText(applicationContext, getString(R.string.checkboxEmpty), duration)
                 toast.show()
             }
 

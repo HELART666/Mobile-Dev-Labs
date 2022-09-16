@@ -14,6 +14,7 @@
         android:theme="@style/Theme.ListViewer"
         tools:targetApi="31" >
         <activity
+            android:icon="@drawable/image_brgr"
             android:name=".AnimateActivity"
             android:theme="@style/AnimateTheme"
             android:exported="true">
